@@ -1,20 +1,22 @@
-import React, { ReactNode } from 'react'
-import AsideBar from '../../organisms/asideBar'
-import NavBar from '../../organisms/navBar'
-import { ContentContainer, SecondayContainer } from './style'
+import React, { ReactNode } from "react";
+import AsideBar from "../../organisms/asideBar";
+import NavBar from "../../organisms/navBar";
+import { SecondayContainer } from "./style";
 
-const TemplateDefualt = (children: ReactNode) => {
-  return (
-    <>
-        <NavBar/>
-        <SecondayContainer>
-            <AsideBar/>
-            <ContentContainer>
-                {children}
-            </ContentContainer>
-        </SecondayContainer>
-    </>
-  )
+interface TemplateProps {
+  children: ReactNode;
 }
 
-export default TemplateDefualt
+const TemplateDefualt = ({ children }: TemplateProps) => {
+  return (
+    <>
+      <NavBar />
+      <SecondayContainer>
+        <AsideBar />
+        {children}
+      </SecondayContainer>
+    </>
+  );
+};
+
+export default TemplateDefualt;

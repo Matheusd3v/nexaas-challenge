@@ -29,7 +29,7 @@ export const AsideContainer = styled.aside`
         }
     }
 
-    @media screen and (max-width: 750px){
+    @media screen and (max-width: 780px){
         width: 152px;
 
         button {

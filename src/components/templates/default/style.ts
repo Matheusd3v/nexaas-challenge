@@ -8,10 +8,3 @@ export const SecondayContainer = styled.div`
     display: flex;
 `
 
-export const ContentContainer = styled.section`
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-`

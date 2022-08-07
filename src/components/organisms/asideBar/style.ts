@@ -19,8 +19,9 @@ export const AsideContainer = styled.aside`
 
         p {
             margin-left: 15px;
-            font-weight: 600;
-            font-size: 18px;
+            font-weight: lighter;
+            font-size: 16px;
+            color: grey;
         }
 
         :hover {

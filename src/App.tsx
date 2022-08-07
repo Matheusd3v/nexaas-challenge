@@ -1,13 +1,14 @@
 import React from "react";
-import AsideBar from "./components/organisms/asideBar";
-import NavBar from "./components/organisms/navBar";
+import TemplateDefualt from "./components/templates/default";
+import PainelPage from "./pages/painel";
 
 function App() {
   return (
     <>
-      <NavBar/>
-      <AsideBar/>
-      </>
+      <TemplateDefualt>
+        <PainelPage/>
+      </TemplateDefualt>
+    </>
   );
 }
 

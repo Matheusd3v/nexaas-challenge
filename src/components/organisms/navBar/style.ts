@@ -19,6 +19,7 @@ export const CenterBarContainer = styled.div`
   border-right: 2px solid lightgrey;
 
   .logo {
+    min-width: 250px;
     width: 250px;
     height: 100%;
     display: flex;
@@ -68,10 +69,12 @@ export const CenterBarContainer = styled.div`
     }
 
     .logo {
-        img {
+      width:150px;
+      min-width: 150px;
 
-            width: 100px;
-        }
+      img {
+        width: 100px;
+      }
     }
 
   }

@@ -1,13 +1,13 @@
 import React from "react";
-import TemplateDefualt from "./components/templates/default";
+import TemplateDefault from "./components/templates/default";
 import PainelPage from "./pages/painel";
 
 function App() {
   return (
     <>
-      <TemplateDefualt>
+      <TemplateDefault>
         <PainelPage/>
-      </TemplateDefualt>
+      </TemplateDefault>
     </>
   );
 }

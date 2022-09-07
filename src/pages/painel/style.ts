@@ -11,10 +11,15 @@ export const ContentContainer = styled.section`
 `
 
 export const CardViewsContainer = styled.div`
-    height: 100px;
     width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 550px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
